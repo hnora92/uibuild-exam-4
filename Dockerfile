@@ -1,2 +1,2 @@
 FROM nginx
-COPY ./usr/share/nginx/html
+COPY UIBUILD-EXAM-4 ./usr/share/nginx/html
