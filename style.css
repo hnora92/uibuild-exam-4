@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background-color: #c0ebf9;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #467745;
+
+  margin-bottom: 20px;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    text-align: left;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#form {
+  width: 100%;
+  max-width: 600px;
+  padding: 25px;
+
+  height: auto;
+  margin: 0 auto;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 600px;
+  height: 64px;
+  background-color: white;
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .subject {
+    max-width: 560px;
+  }
+}
+
+textarea {
+  background-color: white;
+  font-size: 16px;
+  max-width: 600px;
+  height: 120px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  textarea {
+    max-width: 560px;
+  }
+}
+
+.checkbox {
+  display: flex;
+  
+  padding-bottom: 20px;
+  gap: 10px;
+  align-items: center;
+
+  font-size: 16px;
+  color: #467745;
+}
+
+.checkbox a {
+  text-decoration: underline;
+}
+
+input[type="checkbox"] {
+  min-width: 20px;
+  height: 20px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+
+  background-color: #467745;
+  color: #c0ebf9;
+
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+
+  width: 280px;
+  height: 80px;
+}
